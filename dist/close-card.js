@@ -69,13 +69,13 @@ class CloseCard extends HTMLElement {
         .icon-wrap {
           width: 36px; height: 36px;
           border-radius: 50%;
-          background: rgba(var(--rgb-primary-color, 3,169,244), 0.12);
+          background: #424242;
           display: flex; align-items: center; justify-content: center;
           flex-shrink: 0;
         }
         .icon-wrap ha-icon {
           --mdc-icon-size: 20px;
-          color: var(--primary-color);
+          color: #fff;
           display: flex;
         }
 
